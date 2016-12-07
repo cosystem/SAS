@@ -1,5 +1,5 @@
 *****************************************************************;
-* macro to remove duplicate strings from a list of strings		   ;
+* macro to remove duplicate strings from a list of strings	 ;
 *****************************************************************;
 
 %macro removedup(listin, dlmin) / minoperator mindelimiter=',';
