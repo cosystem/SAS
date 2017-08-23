@@ -13,7 +13,7 @@
 		array all_char[*] _character_;
 		do i=1 to dim(all_char);
 		    all_char[i]=&newcase.(all_char[i]);
-	    end;
-	    drop i;
+	    	end;
+	    	drop i;
 	run;
 %mend ConvertChar;
